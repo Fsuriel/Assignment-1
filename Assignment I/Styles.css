@@ -1,0 +1,132 @@
+
+/* This is a good layout for a mobile-first CSS template.
+Following this flow will minimize the number of styles you need to write and will ensure you are thinking, designing and developing mobile-first.
+Most of your styles get written like standard CSS, but for your mobile presentation. Generally speaking, a good mobile presention will stretch out nicely for larger screens.
+
+Sometimes, when we stretch out to larger screens, we need to make minor tweaks for the larger devices -- you can make these tweaks in the tablet media query, or if the issue exists on desktop only, the desktop media query.
+You will find this is far easier than the opposite task of using CSS to cram your desktop experience into a mobile device.
+*/
+/*********************************************************************
+ LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
+*********************************************************************/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+.head {
+    color: black;
+    max-width: 100% ;
+    font-size: 16px;
+    text-align: left;
+}
+
+.byline{
+    color: black;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.dek {
+    font-size: 16px;
+    text-align: left;
+}
+
+.byline1 {
+    text-align: left;
+}
+
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: left;
+}
+
+
+.icongroup{
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    display: flex;
+     max-width: 800px:;
+     flex-direction: column;
+     height: 50%;
+     width: 50%;
+}
+
+.icon img{ 
+    max-height: 150px;
+    max-width: 150px;
+
+}
+
+.gza{
+    height: 100%;
+    width: 100%;
+    display: ;
+    flex: ;
+}
+.gza{
+    height: 50%;
+        width: 100%;
+    }
+
+.les{
+    height: ;
+    width: ;
+}
+
+.leaf{
+    height: ;
+    width: ;
+}
+
+.icons{
+    display: flex;
+    width: 70px;
+    flex-direction: row;
+    color: blue;
+}
+
+.notleaf{
+    height: ;
+    width: ;
+}
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.icongroup {
+       margin-top: 50px;
+    margin-bottom: 50px;
+}
+    
+}
+
+.front{
+    text-align: center;
+}
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 700px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 800px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
